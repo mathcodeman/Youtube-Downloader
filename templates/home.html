@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html>
-    <title> Youtube Downloader</title>
-    <head></head>
+{%extends "layout.html"%}
+{% block content %}
     <body>
-        <form action='/downloadPage' method="POST">
-            <label>Please enter the url</label>
-            <input type="text" id="yt_url" name="yt_url" placeholder="link">
-            <button type="submit">GET</button>
-        </form>
+        <div class="container-fluid">
+            <form class="d-flex" action='/downloadPage' method="POST">
+                <input class="form-control me-2" type="text" id="yt_url" name="yt_url" placeholder="Please enter a YouTube link">
+                <button class="btn btn-outline-success" type="submit">GET</button>
+            </form>
+        </div>
     </body>
-</html>
+{% endblock %}

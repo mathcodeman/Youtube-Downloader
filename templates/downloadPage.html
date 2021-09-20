@@ -1,33 +1,41 @@
+{% extends "layout.html" %}
+{% block content %}
 <script type="text/javascript" src="{{ url_for('static', filename='index.js') }}"></script>
+<body>
+    <div class="video-frame">
+        <iframe width="320" height="240"
+        src="https://www.youtube.com/embed/{{videoID}}">
+        </iframe>
+    </div>
 
-<div class="video-frame">
-    <iframe width="320" height="240"
-    src="https://www.youtube.com/embed/{{videoID}}">
-    </iframe>
-</div>
+    <div class="title-frame">
+        <p class="subtitle-frame">{{title}}</p>
+    </div>
 
-<div class="title-frame">
-    <p class="subtitle-frame">{{title}}</p>
-</div>
+    <div class="audio_dropdown">
+        <form action='/download' method="POST">
+            <label for="audios">Choose audio quality</label>
+            <select class="form-select" aria-label="Default select example" name="audios" id="audios">
+                {% for stream in audio_streams %}
+                    <option value="{{stream.itag}}">{{stream.abr}}</option>
+                {% endfor %}
+            </select>
+            <button class="btn btn-primary btn-lg" type="submit" >Download Audio</button>
+        </form>
+    
+    </div>
 
-<div class="audio_dropdown">
-    <form action='/download' method="POST">
-        <label for="audios">Choose audio quality</label>
-        <select name="audios" id="audios">
-            {% for stream in audio_streams %}
-                <option value="{{stream.itag}}">{{stream.abr}}</option>
-            {% endfor %}
-        </select>
-        <button type="submit" >Get Selected Item</button>
-    </form>
-  
-</div>
+    <div class="video_dropdown">
+        <form action='/download' method="POST">
+            <label for="videos">Choose video quality</label>
+            <select class="form-select" aria-label="Default select example" name="videos" id="videos">
+                {% for stream in video_streams %}
+                    <option value="{{stream.itag}}">{{stream.resolution}}</option>
+                {% endfor %}
+            </select>
+            <button class="btn btn-primary btn-lg" type="submit" >Download Video</button>
+        </form>
+    </div>
+</body>
 
-<div class="video_dropdown">
-  <label for="videos">Choose video quality</label>
-  <select name="videos" id="videos">
-    {% for stream in video_streams %}
-        <option value="{{stream.resolution}}">{{stream.resolution}}</option>
-    {% endfor %}
-  </select>
-</div>
+{% endblock content %}
