@@ -1,10 +1,50 @@
-.video-frame {
-    margin: auto;
-    width: 50%;
-    border: 3px;
-    padding: 10px;
-}
+
 
 .blue {
-    color: blue;;
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.green {
+    color: green;
+}
+
+.white {
+    color: white;
+}
+
+.d-flex {
+    position: relative;
+    top: 50%;
+    left: 35%;
+    margin-top: 60px;
+    margin-left: -50px;
+}
+
+#bootstrap-overrides-search {
+    width: 400px;
+}
+
+.youtube_logo {
+    position: relative;
+    top: 50%;
+    left: 35%;
+    margin-top: 56px;
+    margin-left: 66px;
+}
+
+#bootstrap-overrides-form-select {
+    width: 160px;
+}
+
+.subtitle-frame {
+    width: 320px;
+    
 }

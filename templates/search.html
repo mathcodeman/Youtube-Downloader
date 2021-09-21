@@ -2,9 +2,15 @@
 {% block content %}
 <body>
     <body>
+        <div>
+            <div class="youtube_logo">
+                <img src="https://logos-world.net/wp-content/uploads/2020/04/YouTube-Emblem.png" width="180" height="100">
+            </div>
+        </div>
+
         <div class="container-fluid">
-            <form class="d-flex" action='/downloadPage2' method="POST">
-                <input class="form-control me-2" type="text" id="search_word" name="search_word" placeholder="Please enter your keyword">
+            <form class="d-flex" action='{{  url_for('downloadPage2')  }}' method="POST">
+                <input class="form-control me-2" type="text" id="bootstrap-overrides-search" name="search_word" placeholder="Please enter your keyword">
                 <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
         </div>

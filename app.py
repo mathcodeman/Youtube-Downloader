@@ -51,7 +51,7 @@ def search():
 def downloadPage2():
     keyWord=request.form.get("search_word")
     video_list = Search(keyWord).results
-    return render_template("downloadPage2.html",video_list=video_list)
+    return render_template("viewplayList.html",video_list=video_list)
     
 
 

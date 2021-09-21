@@ -2,7 +2,7 @@
 {% block content %}
 <body>
     <div class="video-frame">
-        <iframe width="320" height="240"
+        <iframe class="iframe" width="320" height="240"
         src="https://www.youtube.com/embed/{{videoID}}">
         </iframe>
     </div>
@@ -11,10 +11,11 @@
         <p class="subtitle-frame">{{title}}</p>
     </div>
 
+
     <div class="audio_dropdown">
         <form action='/download' method="POST">
             <label for="audios">Choose audio quality</label>
-            <select class="form-select" aria-label="Default select example" name="audios" id="audios">
+            <select class="form-select" id="bootstrap-overrides-form-select" aria-label="Default select example" name="audios" id="audios">
                 {% for stream in audio_streams %}
                     <option value="{{stream.itag}}">{{stream.abr}}</option>
                 {% endfor %}
@@ -26,7 +27,7 @@
     <div class="video_dropdown">
         <form action='/download' method="POST">
             <label for="videos">Choose video quality</label>
-            <select class="form-select" aria-label="Default select example" name="videos" id="videos">
+            <select class="form-select" id="bootstrap-overrides-form-select" aria-label="Default select example" name="videos" id="videos">
                 {% for stream in video_streams %}
                     <option value="{{stream.itag}}">{{stream.resolution}}</option>
                 {% endfor %}

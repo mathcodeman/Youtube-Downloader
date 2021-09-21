@@ -1,11 +1,18 @@
 {%extends "layout.html"%}
 {% block content %}
     <body>
-        <div class="container-fluid">
-            <form class="d-flex" action="{{  url_for('main')  }}" method="POST">
-                <input class="form-control me-2" type="text" id="yt_url" name="yt_url" placeholder="Please enter a YouTube link">
-                <button class="btn btn-outline-success" type="submit">GET</button>
-            </form>
+    <div>
+        <div class="youtube_logo">
+            <img src="https://logos-world.net/wp-content/uploads/2020/04/YouTube-Emblem.png" width="180" height="100">
         </div>
+    </div>
+    
+    <div class="search_bar">
+        <form class="d-flex" action="{{  url_for('main')  }}" method="POST">
+            <input class="form-control me-2" id="bootstrap-overrides-search" type="text" id="yt_url" name="yt_url" placeholder="Please enter a YouTube link">
+            <button class="btn btn-outline-success" type="submit">GET</button>
+        </form>
+    </div>
+        
     </body>
 {% endblock %}
