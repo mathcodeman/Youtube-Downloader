@@ -4,3 +4,6 @@ function GetSelectedValue(){
     document.getElementById("result").innerHTML = selectedValue;
 }
 
+function formSubmit(a){
+    a.getElementsByTagName("form")[0].submit();
+}

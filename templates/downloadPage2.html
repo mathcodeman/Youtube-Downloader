@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block content %}
+    <body>
+    {% for video in video_list %}
+    <a href="#" onclick="formSubmit(this)">
+        <div class="content-frame">
+            <form action="{{ url_for('main') }}" method="POST">
+
+                <input type="hidden" name="yt_url" value="https://www.youtube.com/watch?v={{video.video_id}}">
+                <div class="preview-pic-frame-list">
+                    <img width="300" height="150"
+                    src="https://img.youtube.com/vi/{{video.video_id}}/mqdefault.jpg">
+                    </img>
+                </div>
+
+                <div class="title-frame">
+                    <p class="subtitle-frame">{{video.title}}</p>
+                </div>
+                
+            </form>
+        </div>
+    </a>
+    
+    {% endfor %}
+    </body>
+{% endblock content %}

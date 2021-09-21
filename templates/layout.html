@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!--Link with js file-->
+        <script type="text/javascript" src="{{ url_for('static', filename='index.js') }}"></script>
+        
         <!--Link with css file-->
         <link href="/static/style.css" rel="stylesheet">
 
@@ -20,7 +23,7 @@
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="/search">Search</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Pricing</a>
