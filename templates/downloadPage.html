@@ -35,6 +35,21 @@
             <button class="btn btn-primary btn-lg" type="submit" >Download Video</button>
         </form>
     </div>
+
+    <div class="caption_dropdown">
+        <form action='/download' method="POST">
+            <label for="captions">Choose caption languages</label>
+            <select class="form-select" id="bootstrap-overrides-form-select" aria-label="Default select example" name="captions" id="captions">
+                {% for lang in caption_choices.keys() %}
+                    <option value="{{lang}}">{{lang}}</option>
+                {% endfor %}
+            </select>
+            <button class="btn btn-primary btn-lg" type="submit" >Download Captions</button>
+        </form>
+    </div>
 </body>
 
+
+    
 {% endblock content %}
+
