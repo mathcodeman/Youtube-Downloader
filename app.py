@@ -49,7 +49,12 @@ def download():
         return send_file(file_path,as_attachment=True)
     elif caption_downloadTag:
         caption_raw = youtube_object.captions.get_by_language_code(caption_downloadTag)
-        return caption_raw.xml_captions
+        xml_text = caption_raw.xml_captions
+        f=open(f"{youtube_object.title} caption in {caption_downloadTag}.txt","w+")
+        f.write(xml_text)
+        f.close()
+        caption_file_name=f"{youtube_object.title} caption in {caption_downloadTag}.txt"
+        return send_file(caption_file_name,as_attachment=True)
 
 @app.route("/search", methods=["POST","GET"])
 def search():
@@ -62,9 +67,9 @@ def search():
 @app.route("/downloadPage2", methods=["POST","GET"])
 def downloadPage2():
     keyWord=request.form.get("search_word")
-    video_list = Search(keyWord).results
-    return render_template("viewplayList.html",video_list=video_list)
-    
+    video_list = Search(keyWord)
+    return render_template("viewplayList.html",video_list=video_list.results)
+
 
 
 if __name__=="__main__":

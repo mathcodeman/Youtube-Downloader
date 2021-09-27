@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" ?><timedtext format="3">
+<head>
+<ws id="1" ju="2"/>
+<wp id="30" ap="7" ah="50" av="100" rc="1" cc="10"/>
+<wp id="20" ap="7" ah="50" av="100" rc="1" cc="11"/>
+<wp id="2" ap="7" ah="50" av="100" rc="1" cc="12"/>
+<wp id="9" ap="7" ah="50" av="100" rc="1" cc="14"/>
+<wp id="4" ap="7" ah="50" av="100" rc="1" cc="15"/>
+<wp id="6" ap="7" ah="50" av="100" rc="1" cc="16"/>
+<wp id="10" ap="7" ah="50" av="100" rc="1" cc="18"/>
+<wp id="5" ap="7" ah="50" av="100" rc="1" cc="19"/>
+<wp id="13" ap="7" ah="50" av="100" rc="1" cc="20"/>
+<wp id="3" ap="7" ah="50" av="100" rc="1" cc="21"/>
+<wp id="19" ap="7" ah="50" av="100" rc="1" cc="22"/>
+<wp id="14" ap="7" ah="50" av="100" rc="1" cc="24"/>
+<wp id="15" ap="7" ah="50" av="100" rc="1" cc="25"/>
+<wp id="18" ap="7" ah="50" av="100" rc="1" cc="27"/>
+<wp id="23" ap="7" ah="50" av="100" rc="1" cc="32"/>
+<wp id="24" ap="7" ah="50" av="100" rc="1" cc="5"/>
+<wp id="1" ap="7" ah="50" av="100" rc="1" cc="7"/>
+<wp id="31" ap="7" ah="50" av="100" rc="1" cc="8"/>
+<wp id="7" ap="7" ah="50" av="100" rc="2" cc="16"/>
+<wp id="8" ap="7" ah="50" av="100" rc="2" cc="18"/>
+<wp id="25" ap="7" ah="50" av="100" rc="2" cc="19"/>
+<wp id="17" ap="7" ah="50" av="100" rc="2" cc="23"/>
+<wp id="29" ap="7" ah="50" av="100" rc="2" cc="24"/>
+<wp id="16" ap="7" ah="50" av="100" rc="2" cc="25"/>
+<wp id="27" ap="7" ah="50" av="100" rc="2" cc="26"/>
+<wp id="11" ap="7" ah="50" av="100" rc="2" cc="27"/>
+<wp id="12" ap="7" ah="50" av="100" rc="2" cc="28"/>
+<wp id="28" ap="7" ah="50" av="100" rc="2" cc="29"/>
+<wp id="26" ap="7" ah="50" av="100" rc="2" cc="30"/>
+<wp id="21" ap="7" ah="50" av="100" rc="2" cc="31"/>
+<wp id="22" ap="7" ah="50" av="100" rc="2" cc="32"/>
+</head>
+<body>
+<p t="2333" d="2567" wp="1" ws="1">Ohhh ah</p>
+<p t="6200" d="2266" wp="1" ws="1">Ohhh ah</p>
+<p t="9700" d="3766" wp="2" ws="1">Ohhhh aaahhh</p>
+<p t="14366" d="1567" wp="3" ws="1">You know you love me,</p>
+<p t="15966" d="1700" wp="4" ws="1">I know you care</p>
+<p t="17700" d="1700" wp="5" ws="1">Just shout whenever</p>
+<p t="19433" d="1900" wp="6" ws="1">And ill be there</p>
+<p t="21366" d="3567" wp="7" ws="1">You are my love,
+you are my heart</p>
+<p t="24966" d="4034" wp="8" ws="1">And we will never
+ever ever be apart</p>
+<p t="29033" d="1600" wp="9" ws="1">Are we an item</p>
+<p t="30666" d="2000" wp="6" ws="1">Girl quit playin</p>
+<p t="32700" d="1733" wp="10" ws="1">We&#39;re just friends</p>
+<p t="34466" d="1800" wp="10" ws="1">What are you sayin</p>
+<p t="36300" d="3500" wp="11" ws="1">Said theres another
+and looked right in my eyes</p>
+<p t="39833" d="3333" wp="12" ws="1">My first love broke my heart
+for the first time</p>
+<p t="43200" d="933" wp="9" ws="1">And I was like</p>
+<p t="44166" d="3234" wp="13" ws="1">baby baby baby ooooh</p>
+<p t="47433" d="3633" wp="14" ws="1">Like baby baby baby nooo</p>
+<p t="51100" d="3900" wp="15" ws="1">Like baby baby baby ooooh</p>
+<p t="55033" d="3867" wp="16" ws="1">I thought you&#39;d always be
+mine, mine</p>
+<p t="58933" d="3567" wp="10" ws="1">Babybaby baby oooh</p>
+<p t="62533" d="3333" wp="14" ws="1">Like baby baby baby nooo</p>
+<p t="65900" d="4066" wp="15" ws="1">Like baby baby baby ooooh</p>
+<p t="70000" d="3333" wp="16" ws="1">I thought you&#39;d always be
+mine, mine</p>
+<p t="73366" d="3567" wp="8" ws="1">Oh for you I would
+have done whatever</p>
+<p t="76966" d="3534" wp="17" ws="1">And I just cant believe
+we aint together</p>
+<p t="80533" d="2133" wp="18" ws="1">And I want to play it cool,</p>
+<p t="82700" d="1633" wp="10" ws="1">but im loosing you</p>
+<p t="84366" d="1734" wp="3" ws="1">Ill buy you anything,</p>
+<p t="86133" d="1733" wp="13" ws="1">ill buy you any ring</p>
+<p t="87900" d="2033" wp="19" ws="1">And I mean please say,</p>
+<p t="89966" d="1700" wp="20" ws="1">baby fix me</p>
+<p t="91700" d="3866" wp="21" ws="1">And just shake me till you wake
+me from this bad dream</p>
+<p t="95600" d="3566" wp="18" ws="1">Im goin down down down down</p>
+<p t="99200" d="3566" wp="22" ws="1">And I just cant believe my first
+love wont be around</p>
+<p t="102800" d="3633" wp="23" ws="1">And im like baby baby baby ooooh</p>
+<p t="106466" d="3634" wp="14" ws="1">Like baby baby baby nooo</p>
+<p t="110133" d="3933" wp="15" ws="1">Like baby baby baby ooooh</p>
+<p t="114100" d="3866" wp="16" ws="1">I thought you&#39;d always be
+mine, mine</p>
+<p t="118000" d="3266" wp="5" ws="1">Baby baby baby oooh</p>
+<p t="121300" d="3666" wp="14" ws="1">Like baby baby baby nooo</p>
+<p t="125000" d="3933" wp="15" ws="1">Like baby baby baby ooooh</p>
+<p t="128966" d="3600" wp="16" ws="1">I thought you&#39;d always be
+mine, mine</p>
+<p t="132600" d="833" wp="24" ws="1">LUDA.</p>
+<p t="133466" d="3234" wp="25" ws="1">When I was 13,
+I had my first love</p>
+<p t="136733" d="2267" wp="17" ws="1">There was nobody that
+compared to my baby and</p>
+<p t="139033" d="2300" wp="16" ws="1">nobody came between us or
+could ever come above</p>
+<p t="141366" d="3600" wp="21" ws="1">She had me goin crazy, oh I was
+star struck She woke me up</p>
+<p t="145000" d="4666" wp="26" ws="1">daily, don&#39;t need no starbucks
+She made my heart pound,</p>
+<p t="149700" d="2800" wp="27" ws="1">and skip a beat when I see
+her in the street</p>
+<p t="152533" d="1733" wp="8" ws="1">and, At school
+on the playground,</p>
+<p t="154300" d="3100" wp="28" ws="1">but I really wanna see her on
+the weekend She know she</p>
+<p t="157433" d="2600" wp="29" ws="1">got me dazing, cause she
+was so amazin And now my</p>
+<p t="160066" d="2334" wp="25" ws="1">heart is breakin,
+but I keep on sayin</p>
+<p t="162433" d="3133" wp="5" ws="1">Baby baby baby oooh</p>
+<p t="165600" d="3633" wp="14" ws="1">Like baby baby baby nooo</p>
+<p t="169266" d="3967" wp="15" ws="1">Like baby baby baby ooooh</p>
+<p t="173266" d="3767" wp="17" ws="1">Thought you&#39;d always be
+mine, mine</p>
+<p t="177066" d="3234" wp="5" ws="1">Baby baby baby oooh</p>
+<p t="180333" d="3733" wp="14" ws="1">Like baby baby baby nooo</p>
+<p t="184100" d="3866" wp="15" ws="1">Like baby baby baby ooooh</p>
+<p t="188000" d="3300" wp="17" ws="1">Thought you&#39;d always be
+mine, mine</p>
+<p t="191333" d="3467" wp="11" ws="1">Im gone
+(yea yea yea) (yea yea yea)</p>
+<p t="194833" d="8700" wp="11" ws="1">(Repeat 3x) Now Im all gone
+(yea yea yea) (yea yea yea)</p>
+<p t="203566" d="2034" wp="30" ws="1">Gone. gone</p>
+<p t="205633" d="2733" wp="31" ws="1">Im gone.</p>
+</body>
+</timedtext>
