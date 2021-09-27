@@ -1,52 +1,57 @@
 {% extends "layout.html" %}
 {% block content %}
 <body>
-    <div class="video-frame">
-        <iframe class="iframe" width="320" height="240"
-        src="https://www.youtube.com/embed/{{videoID}}">
-        </iframe>
-    </div>
+    <div class="video-content">
+        <div class="video-frame">
+            <iframe class="iframe" width="320" height="240"
+            src="https://www.youtube.com/embed/{{videoID}}">
+            </iframe>
+        </div>
 
-    <div class="title-frame">
-        <p class="subtitle-frame">{{title}}</p>
+        <div class="title-frame">
+            <p class="subtitle-frame">{{title}}</p>
+        </div>
     </div>
+    
 
+    <div class="download-content">
+        <div class="audio_dropdown">
+            <form action='/download' method="POST">
+                <label for="audios">Choose audio quality</label>
+                <select class="form-select" id="bootstrap-overrides-form-select" aria-label="Default select example" name="audios" id="audios">
+                    {% for stream in audio_streams %}
+                        <option value="{{stream.itag}}">{{stream.abr}}</option>
+                    {% endfor %}
+                </select>
+                <button class="btn btn-primary btn-lg" id="bootstrap-overrides-btn" type="submit" >Download Audio</button>
+            </form>
+        </div>
 
-    <div class="audio_dropdown">
-        <form action='/download' method="POST">
-            <label for="audios">Choose audio quality</label>
-            <select class="form-select" id="bootstrap-overrides-form-select" aria-label="Default select example" name="audios" id="audios">
-                {% for stream in audio_streams %}
-                    <option value="{{stream.itag}}">{{stream.abr}}</option>
-                {% endfor %}
-            </select>
-            <button class="btn btn-primary btn-lg" type="submit" >Download Audio</button>
-        </form>
+        <div class="video_dropdown">
+            <form action='/download' method="POST">
+                <label for="videos">Choose video quality</label>
+                <select class="form-select" id="bootstrap-overrides-form-select" aria-label="Default select example" name="videos" id="videos">
+                    {% for stream in video_streams %}
+                        <option value="{{stream.itag}}">{{stream.resolution}}</option>
+                    {% endfor %}
+                </select>
+                <button class="btn btn-primary btn-lg" id="bootstrap-overrides-btn" type="submit" >Download Video</button>
+            </form>
+        </div>
+
+        <div class="caption_dropdown">
+            <form action='/download' method="POST">
+                <label for="captions">Choose caption languages</label>
+                <select class="form-select" id="bootstrap-overrides-form-select" aria-label="Default select example" name="captions" id="captions">
+                    {% for lang in caption_choices.keys() %}
+                        <option value="{{lang}}">{{lang}}</option>
+                    {% endfor %}
+                </select>
+                <button class="btn btn-primary btn-lg" id="bootstrap-overrides-btn" type="submit" >Download Captions</button>
+            </form>
+        </div>
     </div>
-
-    <div class="video_dropdown">
-        <form action='/download' method="POST">
-            <label for="videos">Choose video quality</label>
-            <select class="form-select" id="bootstrap-overrides-form-select" aria-label="Default select example" name="videos" id="videos">
-                {% for stream in video_streams %}
-                    <option value="{{stream.itag}}">{{stream.resolution}}</option>
-                {% endfor %}
-            </select>
-            <button class="btn btn-primary btn-lg" type="submit" >Download Video</button>
-        </form>
-    </div>
-
-    <div class="caption_dropdown">
-        <form action='/download' method="POST">
-            <label for="captions">Choose caption languages</label>
-            <select class="form-select" id="bootstrap-overrides-form-select" aria-label="Default select example" name="captions" id="captions">
-                {% for lang in caption_choices.keys() %}
-                    <option value="{{lang}}">{{lang}}</option>
-                {% endfor %}
-            </select>
-            <button class="btn btn-primary btn-lg" type="submit" >Download Captions</button>
-        </form>
-    </div>
+    
 </body>
 {% endblock content %}
 
